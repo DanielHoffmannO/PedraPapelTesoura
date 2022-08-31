@@ -1,0 +1,13 @@
+﻿{
+  "profiles": {
+    "PedraPapelTesoura": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:57230;http://localhost:57231"
+    }
+  }
+}

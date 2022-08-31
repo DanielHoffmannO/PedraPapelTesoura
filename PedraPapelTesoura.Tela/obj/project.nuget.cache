@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "ebIA+cf1P2DoNunddNiU2Eid/PpI0MFhB4JwAtjAjUhf3epO4lfJCRVsZIu5hX4iJXmBkUZXy6Q/7VIfWmhiyA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\danie\\source\\repos\\PedraPapelTesoura\\PedraPapelTesoura.Tela\\PedraPapelTesoura.Tela.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\danie\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

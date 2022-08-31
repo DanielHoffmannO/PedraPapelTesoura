@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32819.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{38E8ED96-B25A-4EB2-8014-AC9B87AA9613}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PedraPapelTesoura.Application", "Core\PedraPapelTesoura.Application\PedraPapelTesoura.Application.csproj", "{76D31F8B-ADEC-4D7A-ACE2-D890426F7C21}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PedraPapelTesoura.Domain", "Core\PedraPapelTesoura.Domain\PedraPapelTesoura.Domain.csproj", "{C4DE5BF4-D75A-4748-8AA0-351ED803C84F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebApi", "WebApi", "{BB240DC5-7470-422A-9AE7-3407C9E6A3DA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PedraPapelTesoura.Api", "WebApi\PedraPapelTesoura.Api\PedraPapelTesoura.Api.csproj", "{82C8AE7E-F4A7-4964-B676-14E49131B312}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Front", "Front", "{9BDACBC9-C205-48BA-9B19-EC48AB15D6A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PedraPapelTesoura.Tela", "PedraPapelTesoura.Tela\PedraPapelTesoura.Tela.csproj", "{1F5DDB92-48D0-4C67-8F68-1C082590A194}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{76D31F8B-ADEC-4D7A-ACE2-D890426F7C21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76D31F8B-ADEC-4D7A-ACE2-D890426F7C21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76D31F8B-ADEC-4D7A-ACE2-D890426F7C21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76D31F8B-ADEC-4D7A-ACE2-D890426F7C21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4DE5BF4-D75A-4748-8AA0-351ED803C84F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4DE5BF4-D75A-4748-8AA0-351ED803C84F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4DE5BF4-D75A-4748-8AA0-351ED803C84F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4DE5BF4-D75A-4748-8AA0-351ED803C84F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82C8AE7E-F4A7-4964-B676-14E49131B312}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82C8AE7E-F4A7-4964-B676-14E49131B312}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82C8AE7E-F4A7-4964-B676-14E49131B312}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82C8AE7E-F4A7-4964-B676-14E49131B312}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F5DDB92-48D0-4C67-8F68-1C082590A194}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F5DDB92-48D0-4C67-8F68-1C082590A194}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F5DDB92-48D0-4C67-8F68-1C082590A194}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F5DDB92-48D0-4C67-8F68-1C082590A194}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{76D31F8B-ADEC-4D7A-ACE2-D890426F7C21} = {38E8ED96-B25A-4EB2-8014-AC9B87AA9613}
+		{C4DE5BF4-D75A-4748-8AA0-351ED803C84F} = {38E8ED96-B25A-4EB2-8014-AC9B87AA9613}
+		{82C8AE7E-F4A7-4964-B676-14E49131B312} = {BB240DC5-7470-422A-9AE7-3407C9E6A3DA}
+		{1F5DDB92-48D0-4C67-8F68-1C082590A194} = {9BDACBC9-C205-48BA-9B19-EC48AB15D6A4}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3DA1015D-58C9-4F35-91F6-118C46269DC9}
+	EndGlobalSection
+EndGlobal
