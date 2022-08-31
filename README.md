@@ -1,4 +1,4 @@
-# PedraPapelTesoura
+# Pedra Papel Tesoura
 Um jogo simples em C# utilizando arquitetura em camadas DDD 
 
 ![image](https://user-images.githubusercontent.com/102805477/187693758-49d538b9-cf1b-469f-83d1-bb31fa9be846.png)
