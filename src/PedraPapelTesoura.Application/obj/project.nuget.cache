@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "TCO28E7XZvJWGWOy4Ecloce5epjiBIkab6Ic30UcWlJaScK7Qn7hLXCJ97498RKytqFbVlRc/BAoxT0+w3r3Og==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\danie\\source\\repos\\PedraPapelTesoura\\src\\PedraPapelTesoura.Application\\PedraPapelTesoura.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\danie\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
