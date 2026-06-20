@@ -16,7 +16,3 @@ Un juego simple de Piedra, Papel o Tijera que utiliza una API y una interfaz Win
 
 ## Captura de Pantalla
 ![Captura del Juego](https://user-images.githubusercontent.com/102805477/187693758-49d538b9-cf1b-469f-83d1-bb31fa9be846.png)
-
-## Autor
-
-Daniel Hoffmann
