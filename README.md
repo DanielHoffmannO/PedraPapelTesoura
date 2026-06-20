@@ -1,3 +1,5 @@
+🌐 [English](README.en.md) | [Español](README.es.md)
+
 # Jogo Pedra, Papel e Tesoura
 
 ## Descrição do Projeto
