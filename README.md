@@ -1,27 +1,53 @@
 🌐 [English](README.en.md) | [Español](README.es.md)
 
-# Jogo Pedra, Papel e Tesoura
+# ✊✋✌️ Pedra Papel Tesoura
 
-## Descrição do Projeto
-Este projeto consiste em um simples jogo de "Pedra, Papel e Tesoura" que utiliza uma API e uma interface de usuário em Forms. Foi desenvolvido com o propósito de aprendizado e para explorar a tecnologia.
+![.NET 6](https://img.shields.io/badge/.NET-6.0-512BD4?logo=dotnet&logoColor=white)
+![Windows Forms](https://img.shields.io/badge/Windows%20Forms-0078D4?logo=windows&logoColor=white)
+![License MIT](https://img.shields.io/badge/License-MIT-green)
 
-## Conteúdo
-1. [Instalação](#instalação)
-2. [Uso](#uso)
-3. [Exemplo](#Exemplo)
+> Jogo clássico com API REST + interface gráfica Windows Forms e arquitetura em camadas.
 
-## instalação
-Para executar este projeto, é necessário atender aos seguintes requisitos do sistema:
-- C# .NET 6
-- Form .NET 6.0-windows
+## 📸 Screenshot
 
-## Uso
-Siga as etapas abaixo para configurar o projeto:
-1. Clone este repositório em sua máquina local.
-2. Execute a API a partir deste [repositório](https://github.com/DanielHoffmannO/SenhasGpt.Api/tree/main/src/SenhasGpt.Api).
-3. Execute o aplicativo Forms a partir deste [repositório](https://github.com/DanielHoffmannO/PedraPapelTesoura/tree/main/src/PedraPapelTesoura.Tela).
+![Pedra Papel Tesoura](https://user-images.githubusercontent.com/102805477/187693758-49d538b9-cf1b-469f-83d1-bb31fa9be846.png)
 
-## Exemplo
-![Captura de Tela do Jogo](https://user-images.githubusercontent.com/102805477/187693758-49d538b9-cf1b-469f-83d1-bb31fa9be846.png)
+## 🛠️ Tech Stack
 
-Este projeto é uma excelente maneira de aprender e experimentar a integração de uma API com uma interface de usuário em Forms. Divirta-se jogando "Pedra, Papel e Tesoura"!
+- **Backend:** ASP.NET Core Web API (.NET 6)
+- **Frontend:** Windows Forms (.NET 6)
+- **Arquitetura:** Clean Architecture
+
+## 🚀 Como Rodar
+
+**Pré-requisitos:** .NET 6 SDK
+
+```bash
+# Clone o repositório
+git clone https://github.com/seu-usuario/PedraPapelTesoura.git
+cd PedraPapelTesoura
+
+# Inicie a API
+dotnet run --project src/PedraPapelTesoura.Api
+
+# Em outro terminal, inicie a interface
+dotnet run --project src/PedraPapelTesoura.Tela
+```
+
+## 🏗️ Arquitetura
+
+```
+src/
+├── PedraPapelTesoura.Domain/        # Entidades e regras de negócio
+├── PedraPapelTesoura.Application/   # Casos de uso e interfaces
+├── PedraPapelTesoura.Api/           # ASP.NET Core Web API
+└── PedraPapelTesoura.Tela/          # Windows Forms (interface gráfica)
+```
+
+## 📄 Licença
+
+Este projeto está sob a licença [MIT](LICENSE).
+
+## 👤 Autor
+
+Desenvolvido com ☕ por **[114995](https://github.com/114995)**
