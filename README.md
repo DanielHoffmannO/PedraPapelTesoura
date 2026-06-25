@@ -1,53 +1,43 @@
-ðŸŒ [English](README.en.md) | [EspaÃ±ol](README.es.md)
+[>] [English](README.en.md) | [Espanol](README.es.md)
 
-# âœŠâœ‹âœŒï¸ Pedra Papel Tesoura
+# {v} Pedra Papel Tesoura
 
-![.NET 6](https://img.shields.io/badge/.NET-6.0-512BD4?logo=dotnet&logoColor=white)
-![Windows Forms](https://img.shields.io/badge/Windows%20Forms-0078D4?logo=windows&logoColor=white)
-![License MIT](https://img.shields.io/badge/License-MIT-green)
+![.NET](https://img.shields.io/badge/.NET-6.0-512BD4?logo=dotnet)
+![WinForms](https://img.shields.io/badge/Windows%20Forms-0078D6?logo=windows)
+![License](https://img.shields.io/badge/license-MIT-green)
 
-> Jogo clÃ¡ssico com API REST + interface grÃ¡fica Windows Forms e arquitetura em camadas.
+> Jogo classico com API REST + interface grafica Windows Forms e arquitetura em camadas.
 
-## ðŸ“¸ Screenshot
+## [~] Screenshot
 
-![Pedra Papel Tesoura](https://user-images.githubusercontent.com/102805477/187693758-49d538b9-cf1b-469f-83d1-bb31fa9be846.png)
+![Captura de Tela do Jogo](https://user-images.githubusercontent.com/102805477/187693758-49d538b9-cf1b-469f-83d1-bb31fa9be846.png)
 
-## ðŸ› ï¸ Tech Stack
+## {=} Tech Stack
 
-- **Backend:** ASP.NET Core Web API (.NET 6)
-- **Frontend:** Windows Forms (.NET 6)
-- **Arquitetura:** Clean Architecture
+- .NET 6 / ASP.NET Core Web API
+- Windows Forms (.NET 6)
+- Clean Architecture (Domain, Application, Api, Tela)
 
-## ðŸš€ Como Rodar
-
-**PrÃ©-requisitos:** .NET 6 SDK
+## [!] Como Rodar
 
 ```bash
-# Clone o repositÃ³rio
-git clone https://github.com/seu-usuario/PedraPapelTesoura.git
-cd PedraPapelTesoura
-
-# Inicie a API
+# 1. Rode a API
 dotnet run --project src/PedraPapelTesoura.Api
 
-# Em outro terminal, inicie a interface
+# 2. Rode o Forms
 dotnet run --project src/PedraPapelTesoura.Tela
 ```
 
-## ðŸ—ï¸ Arquitetura
+## {/} Arquitetura
 
 ```
 src/
-â”œâ”€â”€ PedraPapelTesoura.Domain/        # Entidades e regras de negÃ³cio
-â”œâ”€â”€ PedraPapelTesoura.Application/   # Casos de uso e interfaces
-â”œâ”€â”€ PedraPapelTesoura.Api/           # ASP.NET Core Web API
-â””â”€â”€ PedraPapelTesoura.Tela/          # Windows Forms (interface grÃ¡fica)
++-- PedraPapelTesoura.Domain       <- Modelos, Enums, Interfaces
++-- PedraPapelTesoura.Application  <- Logica do jogo, DI
++-- PedraPapelTesoura.Api          <- API REST (endpoints)
++-- PedraPapelTesoura.Tela         <- Windows Forms (UI)
 ```
 
-## ðŸ“„ LicenÃ§a
+## [$] Licenca
 
-Este projeto estÃ¡ sob a licenÃ§a [MIT](LICENSE).
-
-## ðŸ‘¤ Autor
-
-Desenvolvido com â˜• por **[114995](https://github.com/114995)**
+Este projeto esta sob a licenca [MIT](LICENSE).
